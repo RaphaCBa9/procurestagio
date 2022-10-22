@@ -165,3 +165,10 @@ h3 {
     flex-direction: column;
     margin: 1rem 1rem 1rem 1rem;
 }
+
+.fonte{
+    font-family: 'Merriweather', serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
