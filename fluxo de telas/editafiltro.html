@@ -9,51 +9,47 @@
     <link rel="stylesheet" href="arquivos de css/style.css">
 </head>
 
-  <body>
-    <header>
-      <h1>Edite seu perfil</h1>
-    </header>
-    <main>
-      <form>
-        <h3>
-          <label for="nome">Seu nome:</label>
-          <input type="text" id="nome" name="nome" />
-        </h3>
-      </form>
-
-      <form>
-        <h3>
-          <label for="fe">Sua idade:</label>
-          <input type="number" id="fe" max="100" min="16" />
-        </h3>
-      </form>
-      <h3>
-        <label for="adt">Área de atuação:</label>
+<body>
+  <header>
+    <a href="index.html" class="voltar"><img src="https://via.placeholder.com/50"></a>
+    <h1>Edite seu perfil</h1>
+  </header>
+  <main>
+    <ul class="edita-filtro-page">
+      <li>
         <select id="adt" name="adt">
-          <option value="adm">Administração</option>
-          <option value="Eco">Economia</option>
-          <option value="Eng">Engenharia</option>
-          <option value="Dir">Direito</option>
+          <option value="area">Área de atuação:</option>
         </select>
-      </h3>
-      <h3>Preferências:</h3>
-      <ul>
-        <li>
-          <h4>Período desejado</h4>
-          <form>
-            <input type="radio" id="mat" name="per" value="matutino" />
-            <label for="mat">Matutino</label><br />
-            <input type="radio" id="diu" name="per" value="diurno" />
-            <label for="diu">Diurno</label><br />
-            <input type="radio" id="not" name="per" value="noturno" />
-            <label for="not">Noturno</label><br />
-            <input type="radio" id="int" name="per" value="integral" />
-            <label for="int">Integral</label><br />
-            <input type="radio" id="tfper" name="per" value="sem preferencia" />
-            <label for="tfper">Não tenho preferência</label>
-          </form>
-        </li>
-      </ul>
-    </main>
-  </body>
+      </li>
+      <li>
+        <select id="adt" name="adt">
+          <option value="cur">Curso:</option>
+        </select>
+      </li>
+      <li>
+        <select id="adt" name="adt">
+          <option value="per">Período:</option>
+          <option value="mat">Matutino</option>
+          <option value="diu">Diurno</option>
+          <option value="not">Noturno</option>
+          <option value="int">Integral</option>
+          <option value="nopref">Não tenho preferência</option>
+        </select>
+      </li>
+      <li>
+        <select id="adt" name="adt">
+          <option value="chd">Carga horária desejada:</option>
+        </select>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <ul class="rodape">
+        <li><a href="index.html"><img src="https://via.placeholder.com/80"></a></li>
+        <li><a href="meucurriculo.html"><img src="https://via.placeholder.com/80"></a></li>
+        <li><a href="chatcomempresa.html"><img src="https://via.placeholder.com/80"></a></li>
+        <li><a href="perfil.html"><img src="https://via.placeholder.com/80"></a></li>
+    </ul>
+  </footer>
+</body>
 </html>

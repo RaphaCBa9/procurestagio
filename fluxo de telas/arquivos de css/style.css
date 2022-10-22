@@ -1,3 +1,6 @@
+html, body {
+    min-height:100%;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -79,6 +82,9 @@ footer {
     border-radius: 15px 15px 0px 0px;
     background-color: rgb(135, 206, 250);
     margin-top: 11.3rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .rodape {
@@ -145,4 +151,71 @@ h3 {
     display: flex;
     flex-direction: column;
     margin: 1rem 1rem 1rem 1rem;
+}
+.nome-empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    align-items: center
+}
+.margem-lat {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.ghost {
+    display: flex;
+}
+.interest {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top: 1.5rem;
+}
+.int-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: solid 1px black;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    right:5%;
+    padding-right: 0.5rem;
+}
+.right1 {
+    display: flex;
+    flex-direction: row;
+    position:absolute;
+    right:5%;
+    padding-right: 0.5rem;
+    padding-top: 1rem;
+}
+.paddingtop {
+    padding-top: 1rem;
+}
+.edita-filtro-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
