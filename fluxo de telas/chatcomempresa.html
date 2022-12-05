@@ -7,18 +7,38 @@
     <title>Propostas disponíveis</title>
     <link rel="stylesheet" href="arquivos de css/reset.css">
     <link rel="stylesheet" href="arquivos de css/style.css">
+    <script src="js/js.js"></script>
 </head>
 
-<body>
+<body class="corpo-chat">
     <header>
         <a href="index.html" class="voltar"><img src="https://via.placeholder.com/50"></a>
         <h1>Empresa 1</h1>
     </header>
-    <main>
-        <form class="chat1">
-            <input type="text" id="mes" name="message" class="chat" placeholder="Digite sua mensagem aqui...">
-        </form>
+    <main class="msg-panel">
+        <section class="msg-usuario">
+            <div class="msg-titulo">
+                <h2 class="h2-chat">Você</h2>
+                <h3 class="h3-chat">Horário</h3>
+            </div>
+            <div class="bolha-usuario">
+                <p>Olá! Tenho interesse na proposta de vocês.</p>
+            </div>
+            <span id="notificacao-msg-1"></span>
+        </section>
+        <section class="msg-resposta">
+            <div class="msg-titulo-invertida">
+                <h2 class="h2-chat">Empresa 1</h2>
+                <h3 class="h3-chat">Horário</h3>
+            </div>
+            <div class="bolha-resposta">    
+                <p>Conte-nos um pouco mais sobre si. Vamos analisar o currículo disponível no seu perfil.</p>
+            </div>
     </main>
+    <div class="bloco-envio-msg">
+        <input class="entrada-msg" type="text" placeholder="Digite sua mensagem">
+        <button class="botao-enviar">Enviar</button>
+    </div>
     <footer>
         <ul class="rodape">
             <li><a href="index.html"><img src="https://via.placeholder.com/80"></a></li>
