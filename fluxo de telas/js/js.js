@@ -1,7 +1,29 @@
 document.addEventListener('DOMContentLoaded', function(event) {
 
+    uls = document.querySelectorAll('.topicos')
+    ulformacao = uls[0]
+    ulhabilidade = uls[1]
+    adicionarf = document.getElementById('addf')
+    adicionarf.addEventListener('click', function(event) {
+        novaformacao = document.createElement('li')
+        novaformacao.className = 'item'
+        forma = document.createElement('p')
+        forma.setAttribute('contenteditable', 'true')
+        novaformacao.appendChild(forma)
+        ulformacao.insertBefore(novaformacao, adicionarf)
+    })
+
+    adicionarh = document.getElementById('addh')
+    adicionarh.addEventListener('click', function(event) {
+        novahabilidade = document.createElement('li')
+        novahabilidade.className = 'item'
+        habil = document.createElement('p')
+        habil.setAttribute('contenteditable', 'true')
+        novahabilidade.appendChild(habil)
+        ulhabilidade.insertBefore(novahabilidade, adicionarh)
+    })
+
     enviar = document.querySelector('.botao-enviar')
-    enviar.style.borderRadius = '10px'
     body = document.querySelector('body')
     enviar.addEventListener('click', function(event) {
         input = document.querySelector('.entrada-msg').value
@@ -29,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
             not.setAttribute('id', 'notificacao-msg-nova')
             main = document.querySelector('.msg-panel')
             main.appendChild(msg)
-        })
+    })
 
     pfp = document.getElementById('pfp')
     pfp.addEventListener('click', function(event) {

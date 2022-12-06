@@ -7,12 +7,12 @@
     <title>Propostas disponíveis</title>
     <link rel="stylesheet" href="arquivos de css/reset.css">
     <link rel="stylesheet" href="arquivos de css/style.css">
-    <script href="js/js.js"></script>
+    <script src="js/js.js"></script>
 </head>
 
   <body>
     <header>
-      <a href="index.html" class="voltar"><img src="https://via.placeholder.com/50"></a>
+      <a href="index.html" class="voltar"><img class="img-voltar" src="img/icone-voltar.png"></a>
       <h1>MEU CURRÍCULO</h1>
     </header>
     <main>
@@ -23,22 +23,29 @@
       <ul>
         <li class="infos">
           <h3>E-mail:</h3>
-          <p editablecontent="true"></p>
+          <p class="sublinhado" contenteditable="true"></p>
         </li>
-        <li class="infos"><h3>Celular:</h3></li>
-        <li class="infos"><h3>Formações:</h3></li>
-        <li><ul class="topicos">
-            <li>Formação A</li>
-            <li>Formação B</li>
-            <li>Formação C</li>
-          </ul>
+        <li class="infos">
+          <h3>Celular:</h3>
+          <p class="sublinhado" contenteditable="true"></p>
         </li>
-        <li class="infos"><h3>Habilidades</h3></li>
+        <li class="infos">
+          <h3>Formações:</h3>
         <li><ul class="topicos">
-            <li>Habilidade 1</li>
-            <li>Habilidade 2</li>
-            <li>Habilidade 3</li>
-          </ul>
+            <li class="item">Formação A</li>
+            <li class="item">Formação B</li>
+            <li class="item">Formação C</li>
+            <li id="addf">Adicionar mais</li>
+          </ul></li>
+        </li>
+        <li class="infos">
+          <h3>Habilidades</h3>
+        <li><ul class="topicos">
+            <li class="item">Habilidade 1</li>
+            <li class="item">Habilidade 2</li>
+            <li class="item">Habilidade 3</li>
+            <li id="addh">Adicionar mais</li>
+          </ul></li>
         </li>
       </ul>
     </main>

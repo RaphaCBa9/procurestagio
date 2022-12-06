@@ -155,6 +155,7 @@ footer {
     margin-left: 3rem;
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    margin-top: 0.8rem;
 }
 
 .input {
@@ -422,6 +423,7 @@ h3 {
     font-size: 1.5rem;
     color: white;
     background-color: #3E515E;
+    border-radius: 10px;
 }
 
 input[type="text"]
@@ -532,4 +534,31 @@ input[type="text"]
 #img-pesquisar {
     width: 2rem;
     height: 2rem;
+}
+
+.img-voltar {
+    width: 2rem;
+    height: 2rem;
+}
+
+.sublinhado {
+    position: relative;
+    border-bottom: 1px solid;
+    left: 5.7rem;
+    width: 9rem;
+    bottom: 1.5rem;
+}
+
+#addf, #addh {
+    position: relative;
+    top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.item {
+    width: 90%;
+    height: 1.2rem;
+    margin-top: 0.3rem;
+    font-size: 1.3rem;
+    border-bottom: 1px solid;
 }
