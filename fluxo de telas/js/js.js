@@ -31,8 +31,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
             main.appendChild(msg)
         })
 
-    pfp = document.querySelector('.pfp')
+    pfp = document.getElementById('pfp')
     pfp.addEventListener('click', function(event) {
-        
+        console.log('a')
+        arquivo = createElement('input')
+        arquivo.type = 'file'
+        header.appendChild(arquivo)
     })
-    })
+})
