@@ -36,11 +36,11 @@
                         <h4 class="itens-perfil">Período desejado:</h4>
                         <form class="periodo">
                             <input type="radio" id="manha">
-                            <label for="manha">Matutino</label>
+                            <label for="manha">Matutino</label><br>
                             <input type="radio" id="dia">
-                            <label for="dia">Integral</label>
+                            <label for="dia">Integral</label><br>
                             <input type="radio" id="noite">
-                            <label for="noite">Noturno</label>
+                            <label for="noite">Noturno</label><br>
                         </form>
                     </li>
                     <li>
@@ -49,8 +49,31 @@
                             <p class="mutavel" id="n" contenteditable="true"></p>
                             <p class="mutavel">horas por dia</p></div></li>
                     </li>
+                    <li>
+                        <h4 class="itens-perfil">Tipo de retorno:</h4>
+                        <form class="periodo">
+                            <input type="radio" id="rem" name="tdr" value="Remunerado">
+                            <label for="rem">Trabalho remunerado</label><br>
+                            <input type="radio" id="nrem" name="tdr" value="Não Remunerado">
+                            <label for="rem">Trabalho não remunerado</label><br>
+                            <input type="radio" id="tftdr" name="tdr" value="Sem preferência">
+                            <label for="tftdr">Não tenho preferências</label>
+                        </form>
+                    </li>
+                    <li>
+                        <h4 class="itens-perfil">Método:</h4>
+                        <form class="periodo">
+                            <input type="radio" id="remo" name="met" value="Remoto">
+                            <label for="remo">Trabalho remoto</label><br>
+                            <input type="radio" id="pres" name="met" value="Presencial">
+                            <label for="pres">Trabalho presencial</label><br>
+                            <input type="radio" id="hib" name="met" value="Híbrido">
+                            <label for="hib">Trabalho híbrido</label><br>
+                            <input type="radio" id="tfmet" name="met" value="Sem preferência">
+                            <label for="tfmet">Não tenho preferências</label><br>
+                        </form>
+                    </li>
                 </ul>
-            </li>
             <li class="borda">
                 <h3 class="infos-perfil">Um pouco mais sobre mim:</h3>
                 <textarea class="mutavel" id="texto-grande-perfil" cols="40" rows="5" placeholder="Insira mais informações relevantes sobre você"></textarea>
