@@ -520,6 +520,16 @@ input[type="text"]
 }
 
 .img-rodape {
-    width: 9.5rem;
-    height: 9.5rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.img-logo {
+    width: 5.5rem;
+    height: 5rem;
+}
+
+#img-pesquisar {
+    width: 2rem;
+    height: 2rem;
 }
