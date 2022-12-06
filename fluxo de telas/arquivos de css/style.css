@@ -15,7 +15,7 @@ header {
     align-items: center;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    background-color: rgb(135, 206, 250);
+    background-color: #6DAEDB;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -119,9 +119,9 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    border: solid 0.5px black;
+    border: solid 0.5px #6DAEDB;
     border-radius: 15px 15px 0px 0px;
-    background-color: rgb(135, 206, 250);
+    background-color:#6DAEDB;
     margin-top: 11.3rem;
 }
 
@@ -130,7 +130,6 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 5px 0px 5px 0px;
-    
 }
 
 .infosprinc {
@@ -521,6 +520,6 @@ input[type="text"]
 }
 
 .img-rodape {
-    width: 80px;
-    height: 80px;
+    width: 9.5rem;
+    height: 9.5rem;
 }
