@@ -12,23 +12,50 @@
 
 <body>
     <header>
-        <h1>Seu Perfil</h1>
-        <a href="editafiltro.html" class="right">Editar seu perfil</a>
-</header>
+        <h1>SEU PERFIL</h1>
+    </header>
     <main>
         <img id="pfp" src="https://via.placeholder.com/80" alt="perfil vazio" class="right1">
-        <h3 class="paddingtop">Nome:</h3>
-        <h3>Idade:</h3>
-        <h3>Área de atuação:</h3>
-        <h3>Preferências:</h3>
         <ul>
             <li>
-                <h4>Período desejado:</h4>
+                <h3 class="infos-perfil">Nome:</h3>
+                <p class="mutavel" contenteditable="true">Insira nome</p></li>
+            <li>
+                <h3 class="infos-perfil">Idade:</h3>
+                <div class="linha">
+                    <p class="mutavel" id="n" contenteditable="true"></p>
+                    <p class="mutavel">anos</p></div></li>
+            <li>
+                <h3 class="infos-perfil">Área de atuação:</h3>
+                <p class="mutavel" contenteditable="true">Insira área</p></li>
+            <li>
+                <h3 class="infos-perfil">Preferências:</h3>
+                <ul>
+                    <li>
+                        <h4 class="itens-perfil">Período desejado:</h4>
+                        <form class="periodo">
+                            <input type="radio" id="manha">
+                            <label for="manha">Matutino</label>
+                            <input type="radio" id="dia">
+                            <label for="dia">Integral</label>
+                            <input type="radio" id="noite">
+                            <label for="noite">Noturno</label>
+                        </form>
+                    </li>
+                    <li>
+                        <h4 class="itens-perfil">Carga horária disponível:</h4>
+                        <div class="linha">
+                            <p class="mutavel" id="n" contenteditable="true"></p>
+                            <p class="mutavel">horas por dia</p></div></li>
+                    </li>
+                </ul>
             </li>
             <li>
-                <h4>Carga horária disponível:</h4>
+                <h3 class="infos-perfil">Um pouco mais sobre mim:</h3>
+                <textarea class="mutavel" id="texto-grande-perfil" cols="40" rows="5" placeholder="Insira mais informações relevantes sobre você"></textarea>
             </li>
         </ul>
+
     </main>
     <footer>
         <ul class="rodape">

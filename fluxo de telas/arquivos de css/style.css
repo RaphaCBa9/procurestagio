@@ -3,6 +3,7 @@
 html, body {
     min-height:100vh;
     font-family: 'Open Sans', sans-serif;
+    background-color: #F7E1D7;
 }
 header {
     position: fixed;
@@ -16,6 +17,21 @@ header {
     border-bottom-right-radius: 30px;
     background-color: rgb(135, 206, 250);
     font-family: 'Roboto', sans-serif;
+}
+
+main {
+    padding: 6rem 0 6rem 0;
+}
+
+.pes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    margin: 1rem;
+    height: 8.2rem;
 }
 
 h1 {
@@ -36,6 +52,18 @@ h1 {
     font-size: 1.8rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+}
+
+.ideia {
+    display: flex;
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #6DAEDB;
+    border: 2px solid #3E7DAB;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: white;
 }
 
 .voltar {
@@ -138,7 +166,9 @@ footer {
 }
 
 #pfp {
-    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
 
 #edit {
@@ -207,9 +237,17 @@ h3 {
     padding-right: 0.5rem;
     padding-top: 1rem;
 }
-.paddingtop {
-    padding-top: 1rem;
+
+.infos-perfil {
+    margin: 1rem 0.8rem 0.2rem 1.2rem;
+    font-size: 1.5rem;
 }
+
+.itens-perfil {
+    margin: 1rem 0.8rem 0.2rem 1.6rem;
+    font-size: 1.3rem;
+}
+
 .edita-filtro-page {
     display: flex;
     flex-direction: column;
@@ -364,9 +402,8 @@ h3 {
 .bloco-envio-msg{
     display: flex;
     flex-direction: row;
-    align-items: column-reverse;
-    padding: 0.2rem 0.2rem 5rem 0.2rem;
-    margin: 1.2rem;
+    padding: 0rem 0.2rem 5rem 0.2rem;
+    margin: 0rem 1.2rem 1.2rem 1.2rem;
 }
 
 .entrada-msg{
@@ -420,4 +457,45 @@ input[type="text"]
     .botao-enviar{
         width: 30%;
     }
+}
+
+.mutavel {
+    font-size: 1.2rem;
+    width: 8rem;
+    height: 1rem;
+    background-color: #F7E1D7;
+    margin: 0.5rem 0 0 1.5rem;
+    border-color: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+.periodo {
+    margin: 1rem 0 2rem 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#texto-grande-perfil {
+    font-size: 1rem;
+    background-color: #F7E1D7;
+    margin: 0.5rem 0 0 1.5rem;
+    border-color: transparent;
+    width: 80%;
+    height: 10rem;
+}
+
+#n {
+    width: 2.5rem;
+    height: 1.3rem;
+    border-bottom: 1px solid;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
 }

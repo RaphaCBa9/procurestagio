@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', function(event) {
+
     enviar = document.querySelector('.botao-enviar')
     enviar.style.borderRadius = '10px'
-
     body = document.querySelector('body')
     enviar.addEventListener('click', function(event) {
         input = document.querySelector('.entrada-msg').value
         event.preventDefault()
-
             msg = document.createElement('section')
             msg.className = 'msg-resposta'
             titulo = document.createElement('div')
@@ -31,4 +30,9 @@ document.addEventListener('DOMContentLoaded', function(event) {
             main = document.querySelector('.msg-panel')
             main.appendChild(msg)
         })
+
+    pfp = document.querySelector('.pfp')
+    pfp.addEventListener('click', function(event) {
+        
+    })
     })
