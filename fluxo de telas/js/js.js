@@ -52,11 +52,4 @@ document.addEventListener('DOMContentLoaded', function(event) {
             main = document.querySelector('.msg-panel')
             main.appendChild(msg)
     })
-
-    pfp = document.getElementById('pfp')
-    pfp.addEventListener('click', function(event) {
-        arquivo = createElement('input')
-        arquivo.type = 'file'
-        pfp.innerHTML = arquivo
-    })
 })
